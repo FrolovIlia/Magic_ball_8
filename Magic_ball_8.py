@@ -21,9 +21,9 @@ def main():
     print('Хочешь задать ещё один вопрос? да/нет')
 
 main()
-repeat = input()
 
 while True:
+    repeat = input()
     if repeat.lower() == 'да':
         main()
     if repeat.lower() == 'нет':
